@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import Menu from './components/Menu'
+import Cargo from './components/Cargo'
+import Rent from './components/Rent'
+import Deals from './components/Deals'
+import Contact from './components/Contact'
+import Ecom from './components/Ecom'
+import Hail1 from './components/Hail1'
+import Comp1 from './components/Comp1'
+import {Switch,Route} from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render(){
+    return(
+      <div>
+        <Switch>
+          <Route exact path='/' component={Menu}/>
+          <Route path='/cont1' component={Contact}/>
+          <Route path='/ecom' component={Ecom}/>
+          <Route path='/cont' component={Comp1}/>
+          <Route path='/cargo' component={Cargo}/>
+          <Route path='/rent' component={Rent}/>
+          <Route path='/deals' component={Deals}/>
+          <Route path='/hail1' component={Hail1}/>
+        </Switch>
+      </div>
+    )
+  }
 }
-
-export default App;
+export default App 
