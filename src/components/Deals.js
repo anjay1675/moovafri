@@ -106,15 +106,15 @@ const Deals =()=>{
                     <h6 id="gre">which include Shop2me and Hail a Repair</h6>
                 </div>
                 <div className="str col-sm-5 col-lg-2 col-md-6 offset-sm-1 offset-lg-0 offset-md-0">
-                    <h6 id="wht">Store</h6>
-                    <h6 id="gre">23 Albert Road</h6>
-                    <h6 id="gre">Southsea</h6>
-                    <h6 id="gre">P05 2SE</h6>
+                    <h6 id="wht">Office</h6>
+                    <h6 id="gre">48 Oyedele Ogunniyi</h6>
+                    <h6 id="gre">Anthony village</h6>
+                    <h6 id="gre">Lagos</h6>
                 </div>
                 <div className="ggg col-sm-5 col-lg-3 col-md-6 offset-sm-0 offset-lg-0 offset-md-0">
                     <h6 id="wht">Get in touch</h6>
                     <h6 id="gre">Mon-fri: 8:00am-6pm/Sat 9am-3pm</h6>
-                    <h6 id="gre">+44(0)2392426388</h6>
+                    <h6 id="gre">+234 (0) 8094820402</h6>
                     <h6 id="gre">enquir@moovafrica.com</h6>
                 </div>        
                 <div className="soc col-sm-6 col-lg-3 col-md-6 offset-sm-0 offset-lg-0 offset-md-0">

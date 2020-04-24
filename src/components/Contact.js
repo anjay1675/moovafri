@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from 'axios'
 import {Link} from 'react-router-dom'
-import {Row, Col, Navbar, Nav,} from 'react-bootstrap'
+import {Navbar, Nav,} from 'react-bootstrap'
 
 
 class Contact extends React.Component{
@@ -14,7 +14,6 @@ class Contact extends React.Component{
         message: ''
       }
      }
-    
   
     handleSubmit(e){
       e.preventDefault();
@@ -31,24 +30,12 @@ class Contact extends React.Component{
         }
       })
     }
-  
+     
     resetForm(){
-      
-       this.setState({name: '', email: '', message: ''})
+       this.setState({name: '', email: '', message: ''})   
     }
-    onNameChange(event) {
-      this.setState({name: event.target.value})
-      }
-    
-      onEmailChange(event) {
-      this.setState({email: event.target.value})
-      }
-    
-      onMessageChange(event) {
-      this.setState({message: event.target.value})
-      }
-      
-    render() {
+           
+    render() {        
       return(
         <div className="bodyy">
             <div className="bar">
@@ -71,8 +58,8 @@ class Contact extends React.Component{
                 <Link className="nav-link" to='/hail1'>Hail a Repair</Link>
                 <a className="nav-link" href='https://moovafrica.com/news/'>Logistics News</a>
                 <a className="nav-link" href='https://moovafrica.com/delivery/pages/login'>Login/Sign Up</a>
-                <div className="vl"></div>
-                <Link id="ser" to='/search'><i class="fas fa-search"></i></Link>
+                {/* <div className="vl"></div>
+                <Link id="ser" to='/search'><i class="fas fa-search"></i></Link> */}
             </Nav>  
         </Navbar.Collapse>
     </Navbar>
@@ -131,7 +118,7 @@ class Contact extends React.Component{
               </div>
           </div>
       </div>
-      
+
     <section className="foot" style={{backgroundColor:'black',width:'100%'}} variant='dark'>
         <div className="container">
             <div className="row">
@@ -142,15 +129,15 @@ class Contact extends React.Component{
                     <h6 id="gre">which include Shop2me and Hail a Repair</h6>
                 </div>
                 <div className="str col-sm-5 col-lg-2 col-md-6 offset-sm-1 offset-lg-0 offset-md-0">
-                    <h6 id="wht">Store</h6>
-                    <h6 id="gre">23 Albert Road</h6>
-                    <h6 id="gre">Southsea</h6>
-                    <h6 id="gre">P05 2SE</h6>
+                    <h6 id="wht">Office</h6>
+                    <h6 id="gre">48 Oyedele Ogunniyi</h6>
+                    <h6 id="gre">Anthony village</h6>
+                    <h6 id="gre">Lagos</h6>
                 </div>
                 <div className="ggg col-sm-5 col-lg-3 col-md-6 offset-sm-0 offset-lg-0 offset-md-0">
                     <h6 id="wht">Get in touch</h6>
                     <h6 id="gre">Mon-fri: 8:00am-6pm/Sat 9am-3pm</h6>
-                    <h6 id="gre">+44(0)2392426388</h6>
+                    <h6 id="gre">+234 (0) 8094820402</h6>
                     <h6 id="gre">enquir@moovafrica.com</h6>
                 </div>        
                 <div className="soc col-sm-6 col-lg-3 col-md-6 offset-sm-0 offset-lg-0 offset-md-0">
@@ -176,7 +163,23 @@ class Contact extends React.Component{
             </div>
         </div>
     </section>
-            </div>              
-        )}
-}
+            </div>   
+            );} 
+            onNameChange(event) {
+                this.setState({name: event.target.value})
+              }
+            
+              onEmailChange(event) {
+                this.setState({email: event.target.value})
+              }
+            
+              onMessageChange(event) {
+                this.setState({message: event.target.value})
+              }
+              handleSubmit(event) {
+              this.setState({status: event.data})
+             }
+          
+             
+        }
       export default Contact
