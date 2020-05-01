@@ -14,9 +14,24 @@ class Contact extends React.Component{
         message: ''
       }
      }
+     onNameChange(event) {
+        this.setState({name: event.target.value})
+      }
+    
+      onEmailChange(event) {
+        this.setState({email: event.target.value})
+      }
+    
+      onMessageChange(event) {
+        this.setState({message: event.target.value})
+      }
+      handleSubmit(event) {
+      this.setState({status: event.data})
+     }
   
     handleSubmit(e){
       e.preventDefault();
+
       axios({
         method: "POST", 
         url:"http://localhost:5000/send", 
@@ -164,22 +179,7 @@ class Contact extends React.Component{
         </div>
     </section>
             </div>   
-            );} 
-            onNameChange(event) {
-                this.setState({name: event.target.value})
-              }
-            
-              onEmailChange(event) {
-                this.setState({email: event.target.value})
-              }
-            
-              onMessageChange(event) {
-                this.setState({message: event.target.value})
-              }
-              handleSubmit(event) {
-              this.setState({status: event.data})
-             }
-          
-             
-        }
+            );
+        }          
+    }
       export default Contact
