@@ -25,12 +25,13 @@ class Contact extends React.Component{
       onMessageChange(event) {
         this.setState({message: event.target.value})
       }
-      handleSubmit(event) {
-      this.setState({status: event.data})
-     }
-  
-    handleSubmit(e){
-      e.preventDefault();
+      onSubjectChange(event){
+        this.setState({subject: event.target.value})
+      }
+
+      handleSubmit(e){
+        e.preventDefault();
+        console.log(this.state);
 
       axios({
         method: "POST", 
