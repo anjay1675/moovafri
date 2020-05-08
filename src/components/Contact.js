@@ -86,20 +86,20 @@ class Contact extends React.Component{
           <h1 id="uss">CONTACT US NOW</h1>
           </div>         
     </div>
-    <section class="contact-section spad">
-		<div class="container">
-			<div class="row">
-				<div class="col-xl-8 offset-xl-2">
-					<div class="section-title">
+    <section className="contact-section spad">
+		<div className="container">
+			<div className="row">
+				<div className="col-xl-8 offset-xl-2">
+					<div className="section-title">
 						<h2>Contact Me</h2>
 					</div>
           </div>
-					<form class="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+					<form className="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
 						<div class="row">
-							<div class="col-sm-8 offset-sm-2 col-md-4 offset-md-2">
+							<div className="col-sm-8 offset-sm-2 col-md-4 offset-md-2">
 								<input type="text" placeholder="Name" id="name" value={this.state.name} onChange={(name)=>this.onNameChange(name)}/>
 							</div>
-							<div class="col-sm-8 offset-sm-2 col-md-4 offset-md-0">
+							<div className="col-sm-8 offset-sm-2 col-md-4 offset-md-0">
 								<input type="text" placeholder="E-mail" id="email" value={this.state.email} onChange={(email)=>this.onEmailChange(email)}/>
 							</div>
 							<div class="col-sm-8 offset-sm-2 col-md-8 offset-md-2">
@@ -107,7 +107,7 @@ class Contact extends React.Component{
 								<textarea placeholder="Message" id="message" value={this.state.message} onChange={(message)=>this.onMessageChange(message)}></textarea>
 							</div>
 						</div>
-						<div class="col-sm-2 offset-sm-8 col-md-2 offset-md-8 text-md-right">
+						<div className="col-sm-2 offset-sm-8 col-md-2 offset-md-8 text-md-right">
             <button className="bttn" type="submit" style={{ width:"180px", height:"43px", borderRadius:"4px",outline:"none",backgroundColor:"black",color:"white"}}>
                 <h6 className="news" >Send message</h6></button>
             </div>
