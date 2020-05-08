@@ -85,54 +85,35 @@ class Contact extends React.Component{
           <h1 id="uss">CONTACT US NOW</h1>
           </div>         
     </div>
-    <div className="form1"> 
-        <div className="formx">
-        <div className="htp"><h5 id="send">Send a message</h5>
-          <h6 id="gig">Fill the form below with the inquiries you may have and we would get back to you as sonn as possible</h6></div>
-          <div className="form">  
-          <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
-    <div className="form-group">
-        <label htmlFor="name">Name</label>
-        <input type="text" className="form-control" id="name" value={this.state.name}/>
+    <section class="contact-section spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-8 offset-xl-2">
+					<div class="section-title">
+						<h2>Contact Me</h2>
+					</div>
+          </div>
+					<form class="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+						<div class="row">
+							<div class="col-sm-8 offset-sm-2 col-md-4 offset-md-2">
+								<input type="text" placeholder="Name" id="name" value={this.state.name} onChange={(name)=>this.onNameChange(name)}/>
+							</div>
+							<div class="col-sm-8 offset-sm-2 col-md-4 offset-md-0">
+								<input type="text" placeholder="E-mail" id="email" value={this.state.email} onChange={(email)=>this.onEmailChange(email)}/>
+							</div>
+							<div class="col-sm-8 offset-sm-2 col-md-8 offset-md-2">
+								<input type="text" placeholder="Subject"id="subject" value={this.state.subject} onChange={(subject)=>this.onSubjectChange(subject)}/>
+								<textarea placeholder="Message" id="message" value={this.state.message} onChange={(message)=>this.onMessageChange(message)}></textarea>
+							</div>
+						</div>
+						<div class="col-sm-2 offset-sm-8 col-md-2 offset-md-8 text-md-right">
+            <button className="bttn" type="submit" style={{ width:"180px", height:"43px", borderRadius:"4px",outline:"none",backgroundColor:"black",color:"white"}}>
+                <h6 className="news" >Send message</h6></button>
+            </div>
+					</form>
+				</div>
     </div>
-        <div className="form-group">
-            <label htmlFor="InputEmail1">Email address</label>
-            <input type="email" className="form-control" aria-describedby="emailHelp" id="email" value={this.state.email}/>
-        </div>
-        <div className="form-group">
-            <label htmlFor="message">Message</label>
-            <textarea className="form-control" rows="5" id="message" value={this.state.message}></textarea>
-        </div>
-    <button id="sbb" type="submit" className="btn btn-primary">Submit</button>
-        </form>
-          </div>
-          </div>
-          <div className="form2">
-              <div className="form3">
-                  <h5 id="send1">Address</h5>
-                  <h6 id="gig">48 Oyedele Ogunniyi Street</h6>
-                  <h6 id="gig">Anthony village, Lagos</h6>
-
-                  <h5 id="send2">Email</h5>
-                  <h6 id="gig">connect@moov.com.ng</h6>
-              </div>
-              <div className="form4">
-                  <h5 id="send1">Phone</h5>
-                  <h6 id="gig">+234 (0) 894820401</h6>
-                  <h6 id="gig">+234 (0) 894820402</h6>
-                  <div>
-                      <h5 id="send2">Connect</h5>
-                      <div className="thin">
-                      <a href="https://web.facebook.com/moov.nigeria?_rdc=1&_rdr" ><i id="net" className="fab fa-facebook-f"></i></a>
-                      <a href="https://twitter.com/moovnigeria"><i id="net" className="fab fa-twitter"></i></a> 
-                      <i id="net" className="fab fa-instagram"></i>
-                      <a href="https://www.linkedin.com/company/moovafrica/"><i id="net" className="fab fa-linkedin-in"></i></a>  
-                      </div>
-
-                  </div>
-              </div>
-          </div>
-      </div>
+</section>
 
     <section className="foot" style={{backgroundColor:'black',width:'100%'}} variant='dark'>
         <div className="container">
