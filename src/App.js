@@ -17,7 +17,6 @@ class App extends Component {
           <Route exact path='/' component={Menu}/>
           <Route path='/cont1' component={Contact}/>
           <Route path='/ecom' component={Ecom}/>
-          {/* <Route path='/cont' component={Comp1}/> */}
           <Route path='/cargo' component={Cargo}/>
           <Route path='/rent' component={Rent}/>
           <Route path='/deals' component={Deals}/>
