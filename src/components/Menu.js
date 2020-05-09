@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import {Row, Col, Navbar, Nav, Carousel} from 'react-bootstrap'
+import {Navbar, Nav, Carousel} from 'react-bootstrap'
 
 
    const Menu =()=>{
@@ -8,8 +8,8 @@ import {Row, Col, Navbar, Nav, Carousel} from 'react-bootstrap'
         <div>
             <div className="bar">
                 <div className="bar1">
-                <div className="bar2"><i class="fas fa-phone-alt"></i><h6 className="num">+234 (0) 894820401</h6></div>
-                <div className="bar3"><i class="far fa-envelope"></i><Link to='/cont1'><h6 className="enq" >Contact Us</h6></Link></div>
+                <div className="bar2"><i className="fas fa-phone-alt"></i><h6 className="num">+234 (0) 894820401</h6></div>
+                <div className="bar3"><i className="far fa-envelope"></i><Link to='/cont1'><h6 className="enq" >Contact Us</h6></Link></div>
                 </div>
             </div>
             <div className="car">
@@ -21,7 +21,7 @@ import {Row, Col, Navbar, Nav, Carousel} from 'react-bootstrap'
                 <Link className="nav-link" to='/'>Home</Link>
                 <Link className="nav-link" to='/cargo'>Cargo Delivery</Link>
                 <Link className="nav-link" to='/rent'>Rent a Van</Link>
-                <a class="nav-link" href='https://moovafrica.com/shop2me/'>Shop2me</a>
+                <a className="nav-link" href='https://moovafrica.com/shop2me/'>Shop2me</a>
                 <Link className="nav-link" to='/deals'>Deals</Link>
                 <Link className="nav-link" to='/hail1'>Hail a Repair</Link>
                 <a className="nav-link" href='https://moovafrica.com/news/'>Logistics News</a>
@@ -122,7 +122,7 @@ import {Row, Col, Navbar, Nav, Carousel} from 'react-bootstrap'
         <div className="row">
             <div className="nm col-sm-4 offset-sm-4">
                 <div className="reg fixed-top">
-                    <div className="fa1"><i class="fa fa-angle-up"></i>
+                    <div className="fa1"><i className="fa fa-angle-up"></i>
                     </div>
                     <div className="fa2"><a href="https://moovafrica.com/delivery/pages/login" id="reg1">Sign Up</a></div>
                 </div>
@@ -185,12 +185,12 @@ import {Row, Col, Navbar, Nav, Carousel} from 'react-bootstrap'
                 </div>
             
                 <div className="elx col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
-                <div class="catt">
+                <div className="catt">
                 <div className="el1">        
                     <img
                     className="el2" 
                     src="./images/e-com.jpg"
-                    alt="moov africa image"
+                    alt="moov africa"
                    
                 />
                 </div>
@@ -206,7 +206,7 @@ import {Row, Col, Navbar, Nav, Carousel} from 'react-bootstrap'
                     <img
                     className="el2" 
                     src="./images/crop2.jpg"
-                    alt="moov africa image"
+                    alt="moov africa"
                 />
                 
                 </div>
@@ -222,8 +222,8 @@ import {Row, Col, Navbar, Nav, Carousel} from 'react-bootstrap'
         <div className="container">
             <div className="mixx col-sm-6 offset-sm-3">
             <div className="img">
-                <img src="./images/e-com7.png" class="img2"/>
-                <img src="./images/cargo.jpg" class="img1"/>
+                <img src="./images/e-com7.png" className="img2"/>
+                <img src="./images/cargo.jpg" className="img1"/>
             </div>
             </div>
         </div>
@@ -245,8 +245,9 @@ import {Row, Col, Navbar, Nav, Carousel} from 'react-bootstrap'
                 src="./images/woman.jpg"
                 width="240px"
                 height="180px"
+                alt=""
                 />
-                <div class="more3">
+                <div className="more3">
                     <div className="more4"><h4 id="topic">Smart Services</h4></div>
                     <div className="more5">We would always beat your imagination, and even more. 
                         Our staff are always very courteous and would always attend to your 
@@ -259,6 +260,7 @@ import {Row, Col, Navbar, Nav, Carousel} from 'react-bootstrap'
                     src="./images/ship.jpeg"
                     width="240px"
                     height="180px"
+                    alt=""
                     />
                     <div className="more3">
                     <div className="more4"><h4 id="topic">Global Biz</h4></div>
@@ -272,6 +274,7 @@ import {Row, Col, Navbar, Nav, Carousel} from 'react-bootstrap'
                     src="./images/hail3.jpeg"
                     width="240px"
                     height="180px"
+                    alt=""
                     />
                     <div className="more3">
                     <div className="more4"><h4 id="topic">Hail A Repair</h4></div>
@@ -319,10 +322,10 @@ import {Row, Col, Navbar, Nav, Carousel} from 'react-bootstrap'
                 </div>        
                 <div className="soc col-sm-6 col-lg-3 col-md-6 offset-sm-0 offset-lg-0 offset-md-0">
                 <h6 id="wht">Social 
-                        <a href="https://web.facebook.com/moov.nigeria?_rdc=1&_rdr" ><i id="ftl" class="fab fa-facebook-f"></i></a> 
-                        <a href="https://twitter.com/moovnigeria"><i class="fab fa-twitter"></i></a>
+                        <a href="https://web.facebook.com/moov.nigeria?_rdc=1&_rdr" ><i id="ftl" className="fab fa-facebook-f"></i></a> 
+                        <a href="https://twitter.com/moovnigeria"><i className="fab fa-twitter"></i></a>
                             <i className="fab fa-instagram"></i>
-                        <a href="https://www.linkedin.com/company/moovafrica/"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.linkedin.com/company/moovafrica/"><i className="fab fa-linkedin-in"></i></a>
                     </h6>
                     <Link to='/register'><button className="bttn" type="submit" style={{ width:"180px", height:"43px", borderRadius:"4px",outline:"none"}}>
                             <h6 className="news" >Sign Up</h6></button></Link>

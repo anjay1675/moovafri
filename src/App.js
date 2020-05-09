@@ -12,12 +12,12 @@ import {Switch,Route} from 'react-router-dom'
 class App extends Component {
   render(){
     return(
-      <div>
+      <div className="x">
         <Switch>
           <Route exact path='/' component={Menu}/>
           <Route path='/cont1' component={Contact}/>
           <Route path='/ecom' component={Ecom}/>
-          <Route path='/cont' component={Comp1}/>
+          {/* <Route path='/cont' component={Comp1}/> */}
           <Route path='/cargo' component={Cargo}/>
           <Route path='/rent' component={Rent}/>
           <Route path='/deals' component={Deals}/>
