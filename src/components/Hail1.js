@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import {Row, Col, Navbar, Nav, Carousel} from 'react-bootstrap'
+import {Navbar, Nav} from 'react-bootstrap'
 
 
    const Hail1 =()=>{
