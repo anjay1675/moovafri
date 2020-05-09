@@ -9,6 +9,7 @@ app.use(express.json())
 //middleware to route activities 
 const contactRouter = require("./routes/contact");
 app.use("/send", contactRouter);
+app.use(express.static(__dirname + '/public'));
 
 const port = process.env.PORT || 5000;
 
