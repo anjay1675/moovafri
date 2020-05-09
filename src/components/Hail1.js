@@ -16,7 +16,7 @@ import {Navbar, Nav} from 'react-bootstrap'
     <Navbar collapseOnSelect expand="sm">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">    
-                <img className="logo" src="./images/w1.png" alt="picture" width="180px" height="80px"/>
+                <img className="logo" src="./images/w1.png" alt="Moov" width="180px" height="80px"/>
             <Nav className="mr-auto">    
                 <Link className="nav-link" to='/'>Home</Link>
                 <Link className="nav-link" to='/cargo'>Cargo Delivery</Link>
@@ -89,7 +89,7 @@ import {Navbar, Nav} from 'react-bootstrap'
         <div className="container">
             <div className="row">
             <div className="pho col-lg-6 offset-lg-3 col-sm-12 offset-sm-0 text-center">          
-                <img id="src" src="./images/repair5.jpeg" alt="Phone pic" width="580px" height="400px"/>
+                <img id="src" src="./images/repair5.jpeg" alt="Phone" width="580px" height="400px"/>
             </div>
             </div>
         </div>

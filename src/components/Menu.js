@@ -16,7 +16,7 @@ import {Navbar, Nav, Carousel} from 'react-bootstrap'
     <Navbar collapseOnSelect expand="sm">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">    
-                <img className="logo" src="./images/w1.png" width="180px" height="80px"/>
+                <img className="logo" src="./images/w1.png" alt ="Moov" width="180px" height="80px"/>
             <Nav className="mr-auto">    
                 <Link className="nav-link" to='/'>Home</Link>
                 <Link className="nav-link" to='/cargo'>Cargo Delivery</Link>
@@ -141,7 +141,7 @@ import {Navbar, Nav, Carousel} from 'react-bootstrap'
                         src="./images/divider.jpg" 
                         width="100px"
                         height="30px"
-                        alt="image"
+                        alt="Moov"
                     />
         </div>
     </div>
@@ -157,7 +157,7 @@ import {Navbar, Nav, Carousel} from 'react-bootstrap'
         <div className="truck  col-md-4 col-lg-4 col-xl-4 mb-5 col-xs-4 col-sm-4 col-sm-offset-0 col-lg-4 col-lg-offset-0 text-center">
                 <img className="vvv mx-auto"
                     src="./images/moov-project.jpg"
-                    alt="Moov Africa Image"
+                    alt="Moov Africa"
                     width="380px"
                     height="220px;"
                 />
@@ -175,7 +175,7 @@ import {Navbar, Nav, Carousel} from 'react-bootstrap'
                             <img
                                 className="el2" 
                                 src="./images/imgx2.jpeg"
-                                alt="moov africa image"
+                                alt="moov africa"
                             />    
                         </div>
                         <div className="giv">Giving You The Best</div><h6 id="pro">We provide superior service experience to our Customers 
@@ -222,8 +222,8 @@ import {Navbar, Nav, Carousel} from 'react-bootstrap'
         <div className="container">
             <div className="mixx col-sm-6 offset-sm-3">
             <div className="img">
-                <img src="./images/e-com7.png" className="img2"/>
-                <img src="./images/cargo.jpg" className="img1"/>
+                <img src="./images/e-com7.png" alt="moov africa" className="img2"/>
+                <img src="./images/cargo.jpg" alt="moov africa" className="img1"/>
             </div>
             </div>
         </div>
@@ -245,7 +245,7 @@ import {Navbar, Nav, Carousel} from 'react-bootstrap'
                 src="./images/woman.jpg"
                 width="240px"
                 height="180px"
-                alt=""
+                alt="moov africa"
                 />
                 <div className="more3">
                     <div className="more4"><h4 id="topic">Smart Services</h4></div>
@@ -260,7 +260,7 @@ import {Navbar, Nav, Carousel} from 'react-bootstrap'
                     src="./images/ship.jpeg"
                     width="240px"
                     height="180px"
-                    alt=""
+                    alt="moov africa"
                     />
                     <div className="more3">
                     <div className="more4"><h4 id="topic">Global Biz</h4></div>
@@ -274,7 +274,7 @@ import {Navbar, Nav, Carousel} from 'react-bootstrap'
                     src="./images/hail3.jpeg"
                     width="240px"
                     height="180px"
-                    alt=""
+                    alt="moov africa"
                     />
                     <div className="more3">
                     <div className="more4"><h4 id="topic">Hail A Repair</h4></div>
@@ -287,6 +287,7 @@ import {Navbar, Nav, Carousel} from 'react-bootstrap'
                     src="./images/connect.jpg"
                     width="240px"
                     height="180px"
+                    alt="moov africa"
                     />
                     <div className="more3">
                     <div className="more4"><h4 id="topic">Deals</h4></div>

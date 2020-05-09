@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import {Navbar, Nav, Col,Row} from 'react-bootstrap'
+import {Navbar, Nav} from 'react-bootstrap'
 
 
 const Ecom=()=>{
@@ -32,7 +32,7 @@ const Ecom=()=>{
         </Navbar.Collapse>
     </Navbar>
         </div>
-        <div className="ecom"><img src="./images/ecomm2.jpg" alt="" width="100%" height="650px"/></div>
+        <div className="ecom"><img src="./images/ecomm2.jpg" alt="moov africa" width="100%" height="650px"/></div>
         <div className="has-max-width text-center"><h1 class="head align-center color-gulfstream ember font-bold">
             "Welcome to the world of E-commerce"</h1>
             </div>
@@ -56,7 +56,7 @@ const Ecom=()=>{
         <div className="container">
             <div className="row pt-5">
             <div className="pho col-lg-6 offset-lg-3 col-sm-12 offset-sm-0 text-center">          
-                <img id="src" src="./images/ecomm1.jpg" alt="Phone pic" width="580px" height="400px"/>
+                <img id="src" src="./images/ecomm1.jpg" alt="Phone" width="580px" height="400px"/>
             </div>
             </div>
         </div>
@@ -108,11 +108,11 @@ const Ecom=()=>{
         <div className="container">
             <div className="row">
                 <div className="mmm col-lg-4 offset-lg-2 col-sm-5 offset-sm-1 text-center">
-                    <img src="./images/pat.png" alt="" width="200px" height="45px"/>
+                    <img src="./images/pat.png" alt="moov africa" width="200px" height="45px"/>
                     
                 </div>
                 <div className="mmm1 col-lg-4 offset-lg-0 col-sm-4 offset-sm-1 text-center">
-                <img src="./images/pat1.jpg" alt="" width="200px" height="45px"/>
+                <img src="./images/pat1.jpg" alt="moov africa" width="200px" height="45px"/>
                     
                 </div>
             </div>

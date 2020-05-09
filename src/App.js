@@ -6,7 +6,6 @@ import Deals from './components/Deals'
 import Contact from './components/Contact'
 import Ecom from './components/Ecom'
 import Hail1 from './components/Hail1'
-import Comp1 from './components/Comp1'
 import {Switch,Route} from 'react-router-dom'
 
 class App extends Component {

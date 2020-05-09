@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import {Navbar, Nav, Col, Row} from 'react-bootstrap'
+import {Navbar, Nav} from 'react-bootstrap'
 
 
 
@@ -75,14 +75,14 @@ const Deals =()=>{
             <div className="red1"><h6>We offer our patners the choice to make the right business Moov. Moov Africa is 
             the best </h6></div>
             <h6 className="red1">platform to always count on.</h6>
-        <div className="redd col-md-4 offset-md-4"><img src="./images/deals6.jpg" alt="deals image" width="400px" height="400px"/></div>
+        <div className="redd col-md-4 offset-md-4"><img src="./images/deals6.jpg" alt="deals" width="400px" height="400px"/></div>
     <div className="red col-md-3 offset-md-3"></div>
 </section>
 
 <section className="ma">
     <div className="container">
         <div className="row">
-                <div class="mag col-sm-12 col-lg-4 offset-sm-0 offset-lg-0"><img id ="mag1"src="./images/mmm.jpg" width="300px" height="300px"/></div>
+                <div class="mag col-sm-12 col-lg-4 offset-sm-0 offset-lg-0"><img id ="mag1"src="./images/mmm.jpg" alt="moov africa" width="300px" height="300px"/></div>
                     <div className="mag2 col-sm-12 col-lg-5 offset-sm-0 offset-lg-0">
                         <h2 id="le">Learn more about what we do. Get in touch with us at Moov Africa.</h2>
                         <h6 id="le1">We market and sell your products with us and you</h6>

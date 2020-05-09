@@ -34,7 +34,7 @@ const Cargo=()=>{
         <div classname="imgtt col-sm-12 col-xs-12 col-lg-12 offset-lg-0">
             <img className="imgtru" 
                  src="./images/cargo1.jpg"
-                 alt="moov africa image"
+                 alt="moov africa"
                  width="1300px"
                  height="650px"
             />       
@@ -47,6 +47,7 @@ const Cargo=()=>{
                 <img id="truc" 
                      src="./images/truck26.jpg"
                      width="240px"
+                     alt="moov africa"
                 />
                 <h4 id="mat">Same Day! Next Day! When?</h4>
                 <h2 id="tak">Taking you forward</h2>
@@ -55,7 +56,7 @@ const Cargo=()=>{
                         <img 
                         id="truc2"
                         src="./images/truck25.jpg"
-                        alt="truck image"
+                        alt="truck"
                         />
                         <h4 id="mat">Dispatch Services</h4>
                         <h2 id="tak">Just in few munites</h2>

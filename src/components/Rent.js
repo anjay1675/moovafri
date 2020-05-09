@@ -16,7 +16,7 @@ const Rent=()=>{
             <Navbar collapseOnSelect expand="sm">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">    
-                <img className="logo" src="./images/w1.png" alt="picture" width="180px" height="80px"/>
+                <img className="logo" src="./images/w1.png" alt="Moov" width="180px" height="80px"/>
             <Nav className="mr-auto">    
                 <Link className="nav-link" to='/'>Home</Link>
                 <Link className="nav-link" to='/cargo'>Cargo Delivery</Link>
@@ -46,7 +46,7 @@ const Rent=()=>{
                     </div>
                     <div className="rent3">
                         <img src="./images/trans3.jpg"
-                             alt="truck image"
+                             alt="truck"
                              width="500px"
                              height="300px"
                         />
@@ -59,7 +59,7 @@ const Rent=()=>{
                         <div className="pee mx-auto">
                             <img className="bl" 
                                 src="./images/truck17.jpeg"
-                                alt="moov africa image"
+                                alt="moov africa"
                             />
                         </div>
                     </div>
@@ -67,7 +67,7 @@ const Rent=()=>{
                         <div className="pee mx-auto">
                             <img className="bl" 
                                 src="./images/truckxx.jpg"
-                                alt="moov africa image"     
+                                alt="moov africa"     
                             />
                         </div>
                     </div>
@@ -75,7 +75,7 @@ const Rent=()=>{
                         <div className="pee mx-auto">
                         <img className="bl" 
                             src="./images/cargox3.jpg"
-                            alt="moov africa image "   
+                            alt="moov africa"   
                         />
                     </div>
                     </div>
