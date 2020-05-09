@@ -21,7 +21,7 @@ Router.route("/").post((req, res)=>{
             pass: 'officesecret'
         }
     });
-    const mailInfo = {
+    const mailInfo ={
         from: email,
         to: 'anjaba.atiku@moovafrica.com',
         subject: subject,
