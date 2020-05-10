@@ -27,6 +27,9 @@ Router.route("/").post((req, res)=>{
         subject: subject,
         html: `<h1>Mail from ${name} </h1><p> ${message} </p>`
     };
+    if (process.env.NODE_ENV !=='production') {
+        require('dotenv').config()
+    }
     transport.sendMail(mailInfo, function(err, info) {
         if(!err){
             res.status(200).json({status:'success', msg:`Message Sent Successfully`})
