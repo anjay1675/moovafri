@@ -54,9 +54,9 @@ const Cargo=()=>{
                 <h5 id="tak2">We guarantee your important parcels and cargo get the desired Express Service</h5>
                     <div className="bick1">
                         <img 
-                        id="truc2"
-                        src="./images/truck25.jpg"
-                        alt="truck"
+                            id="truc2"
+                            src="./images/truck25.jpg"
+                            alt="truck"
                         />
                         <h4 id="mat">Dispatch Services</h4>
                         <h2 id="tak">Just in few munites</h2>
