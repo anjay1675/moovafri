@@ -34,7 +34,7 @@ const Cargo=()=>{
         <div classname="imgtt col-sm-12 col-xs-12 col-lg-12 offset-lg-0">
             <img className="imgtru" 
                  src="./images/cargo1.jpg"
-                 alt="moov africa"
+                 alt="moov"
                  width="1300px"
                  height="650px"
             />       
@@ -47,7 +47,7 @@ const Cargo=()=>{
                 <img id="truc" 
                      src="./images/truck26.jpg"
                      width="240px"
-                     alt="moov africa"
+                     alt="moov"
                 />
                 <h4 id="mat">Same Day! Next Day! When?</h4>
                 <h2 id="tak">Taking you forward</h2>
@@ -105,20 +105,20 @@ const Cargo=()=>{
         </div> 
             <section className="animx">
                 <div className="fin col-sm-8 offset-sm-2 col-lg-12 offset-lg-0">
-                    <img src="./images/img6.jpg" alt="Moov Africa Image" width="100%" height="auto"/>
+                    <img src="./images/img6.jpg" alt="Moov Africa" width="100%" height="auto"/>
                 </div>
             </section>
             <section>
                 <div className="container">
                     <div className="row">
                         <div className="packk col-lg-4 col-sm-10 col-md-6 offset-lg-0 offset-sm-1 offset-md-3 text-center">
-                            <img className="pack1"  src="./images/packa1.png" alt="Moov Africa Image" width="280px" height="240px"/>
+                            <img className="pack1"  src="./images/packa1.png" alt="Moov Africa" width="280px" height="240px"/>
                         </div>
                         <div className="packk col-lg-4 col-sm-10 col-md-6 offset-lg-0 offset-sm-1 offset-md-3 text-center">
-                            <img className="pack2" src="./images/packa2.jpg" alt="Moov Africa Image" width="280px" height="190px"/>
+                            <img className="pack2" src="./images/packa2.jpg" alt="Moov Africa" width="280px" height="190px"/>
                         </div>
                         <div className="packk col-lg-4 col-sm-10 col-md-6 offset-lg-0 offset-sm-1 offset-md-3 text-center">
-                            <img className="pack3" src="./images/packa3.jpg" alt="Moov Africa Image" width="300px" height="220px"/>
+                            <img className="pack3" src="./images/packa3.jpg" alt="Moov Africa" width="300px" height="220px"/>
                         </div>
                     </div> 
                 </div>
