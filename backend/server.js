@@ -9,12 +9,12 @@ app.use(express.json())
 //middleware to route activities 
 const contactRouter = require("./routes/contact");
 app.use("/send", contactRouter);
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + 'my-app/public'));
 
 if(process.env.NODE_ENV === 'production'){
 	app.use(express.static('build'))
   app.get('*', (req,res)=>{
-    res.sendFile(path.join(__dirname, 'build', 'index.html'))
+    res.sendFile(path.join(__dirname, 'my-app','build', 'index.html'))
   })
 }
 
